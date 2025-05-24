@@ -4,8 +4,6 @@ import SearchBox from './components/SearchBox/SearchBox';
 import ContactList from './components/ContactList/ContactList';
 
 export default function App() {
-  const STORAGE_KEY = 'contacts';
-
   return (
     <div className={css.wrapper}>
       <h1>Phonebook</h1>
